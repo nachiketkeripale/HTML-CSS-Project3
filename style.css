@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    height: 80vh;
+    width: 100%;
+    margin-top: 200px;
+    background-image: url(./assets/pexels-ekaterina-bolovtsova-6077326.jpg);
+    background-size: 100% 100vh;
+    position: absolute;
+    z-index: -1;
+}
+
+.nav-container {
+    position: relative;
+    background-color: #2b2922;
+    padding-bottom: 70px;
+    font-family: "Red Rose";
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .nav-logo {
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 20%;
+}
+
+.navbar .list {
+    margin-top: 20px;
+    display: flex;
+    width: 80%;
+    color: #ffffff;
+    font-weight: 100;
+}
+
+.list .list-item {
+    display: block;
+    width: 160px;
+    list-style: none;
+    margin-left: 30px;
+}
+
+.navbar .nav-button {
+    position:absolute;
+    width: 20%;
+    right: 10px;
+   
+}
+
+.nav-button button {
+    padding: 10px 25px;
+    color: #8b7c32;
+    background: transparent;
+    border: 1px solid #8b7c32;
+    border-radius: 5px;
+}
+
+.hero {
+    margin-top: 50px;
+    display: flex;
+}
+
+.left {
+    width: 50%;
+}
+
+.right {
+    width: 50%;
+}
+
+.left-heading {
+    margin-left: 50px;
+    font-size: 70px;
+    color: #ffffff;
+}
+
+.right-heading {
+    margin-left: 100px;
+    margin-right: 150px;
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 100;
+}
