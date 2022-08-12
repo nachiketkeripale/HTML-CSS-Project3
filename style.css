@@ -88,3 +88,69 @@
     color: #ffffff;
     font-weight: 100;
 }
+
+
+@media screen and (max-width:900px) {
+
+    body {
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .navbar .nav-logo {
+        margin-top: 20px;
+        margin-left: 20px;
+        width: 20%;
+    }
+
+    .nav-logo img {
+        width: 100%;
+    }
+
+    .navbar .list {
+       display: none;
+    }
+    
+    .nav-button button {
+        margin-top: 20px;
+        width: 100%;
+        height: 45px;
+        text-align: center;
+        padding: unset;
+        font-size: 12px;
+    }
+    
+    .hero {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .left-heading {
+        margin-left: unset;
+        font-size: 40px;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .right-heading {
+        margin-top: 50px;
+        margin-left: 40px;
+        margin-right: 40px;
+        font-size: 18px;
+        color: #ffffff;
+        font-weight: 100;
+        text-align: center;
+    }
+}
